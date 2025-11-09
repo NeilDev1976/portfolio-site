@@ -77,17 +77,17 @@ npm run preview
 ## Project Structure (example)
 ```
 src/
-  assets/
   components/
+    Footer.tsx
+    Header.tsx
+    Layout.tsx
   pages/
     Home.tsx
     About.tsx
     NotFound.tsx
-  App.tsx
   main.tsx
   index.css
-public/
-  favicon.ico
+  Router.tsx
 README.md
 package.json
 vite.config.ts
@@ -115,18 +115,13 @@ You can add new routes in `src/App.tsx` (or wherever you define routes) and crea
 
 ---
 
-## Contributing
-This is a personal portfolio project. If you want to suggest improvements or send fixes, feel free to open an issue or a pull request. For significant changes, please discuss via issues first.
-
----
-
 ## License
 This project is licensed under the **MIT License** — see `LICENSE` for details.
 
 ---
 
 ## Contact
-Your Name — your.email@example.com  
-Portfolio: _your-portfolio-url_  
-GitHub: _your-github-username_
+Your Name — Neil Surridge  
+Portfolio: coming soon! 
+GitHub: NeilDev1976
 
