@@ -1,0 +1,67 @@
+{
+  "title": "About Me",
+  "intro": {
+    "name": "Neil Surridge",
+    "tagline": "Software Engineer rediscovering the craft",
+    "summary": "I'm a former C++ software engineer now returning to the world of software development, rebuilding my skills around TypeScript, React, Tailwind CSS, C#, .NET and Azure."
+  },
+  "background": {
+    "education": {
+      "degree": "BSc (Hons)",
+      "field": "Computer Science",
+      "institution": "University of Brighton",
+      "graduationYear": 1998
+    },
+    "earlyCareer": {
+      "period": "1998–2002",
+      "roles": [
+        "Software Engineer (Visual C++)",
+        "Developer in telecommunications",
+        "Developer in medical technology"
+      ],
+      "overview": "My early career was spent building high-performance applications, contributing to systems in both telecoms and medical domains. I worked primarily with Visual C++ and developed a strong foundation in systems programming, debugging, and designing robust software under demanding constraints."
+    },
+    "careerShift": {
+      "period": "2002–Present",
+      "overview": "After several successful years in software engineering, I moved into a new career path where I developed significant experience in leadership, decision-making under pressure, communication and team coordination. I currently serve in a supervisory role, further developing people-focused and operational skills that complement my technical background."
+    }
+  },
+  "currentFocus": {
+    "statement": "I'm now purposefully moving back into software development and modern engineering practices. This portfolio documents that journey and serves as both a learning space and a showcase of progress.",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "React Router",
+      "Tailwind CSS",
+      "C#",
+      ".NET",
+      "Azure",
+      "REST APIs",
+      "Modern tooling (Vite, Git, GitHub)"
+    ]
+  },
+  "skills": {
+    "technical": [
+      "Frontend development with React and TypeScript",
+      "C# and .NET backend fundamentals",
+      "UI styling with Tailwind CSS",
+      "Modern tooling: Vite, npm, Git, GitHub",
+      "API integration",
+      "Debugging, problem-solving, system thinking"
+    ],
+    "foundational": [
+      "Leadership and team coordination",
+      "Clear and structured communication",
+      "Learning and adapting quickly",
+      "Analytical and logical reasoning",
+      "High-stakes decision-making"
+    ]
+  },
+  "goals": [
+    "Build a polished, responsive portfolio site",
+    "Showcase GitHub projects fetched dynamically from the API",
+    "Create meaningful, reusable React components",
+    "Strengthen knowledge of modern .NET and Azure services",
+    "Demonstrate continuous growth while transitioning fully back into development"
+  ]
+}

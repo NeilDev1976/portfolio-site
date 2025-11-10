@@ -1,0 +1,15 @@
+{
+  "site": {
+    "name": "My Portfolio",
+    "description": "A modern developer portfolio built with React, TypeScript, Tailwind CSS, and Vite.",
+    "author": "Neil Surridge",
+    "github": "https://github.com/NeilDev1976",
+    "email": ""
+  },
+  "navigation": [
+    { "name": "Home", "path": "/" },
+    { "name": "About", "path": "/about" },
+    { "name": "Projects", "path": "/projects" },
+    { "name": "Contact", "path": "/contact" }
+  ]
+}
