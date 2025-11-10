@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer>
-            The Footer
-            <Link to="/">Home</Link>
+        <footer className="bg-gray-100">
+            <p >&copy; {new Date().getFullYear()} Neil Surridge. All rights reserved.</p>
         </footer>
     )
 }
