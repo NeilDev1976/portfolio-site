@@ -1,11 +1,12 @@
 import siteConfig from '../data/siteConfig.json';
+import about from '../data/about.json';
 import keyboardPic from "../assets/keyboardImage.jpg";
 
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-start">
       
-      <div className="card hover:shadow-2xl mb-4 p-4 mt-8 mx-4 text-center">
+      <div className="card mb-4 p-4 mt-8 mx-4 text-center">
         <h1 className="rounded-xl mb-4">{siteConfig.site.author}</h1>
         <p>{siteConfig.site.description}</p>
       </div>
@@ -26,23 +27,27 @@ const Home = () => {
           </h2>
 
           <p className="leading-relaxed mb-4">
-            Hello! I'm a developer returning to the tech world after leading teams,
-            coordinating operations, and building the kind of decision-making skills
-            you only acquire through real-world problem-solving. My focus now is on
-            modern web development using TypeScript, React, Tailwind CSS, C#, .NET,
-            and Azure.
+            {about.intro.summary1}
           </p>
 
           <p className="leading-relaxed">
-            I previously worked as a Software Engineer specialising in Visual C++,
-            telecommunications and medical systems, and I'm now blending that
-            technical foundation with the leadership and analytical skills gained
-            from my career journey since.
+            {about.intro.summary2}
           </p>
         </div>
       </div>
 
+      
+
     </section>
+
+    <div className="card mb-4 p-4 mx-4 text-center">
+        <h2>Goals</h2>
+        <div className="flex flex-wrap justify-center gap-4 mt-4 mb-4">
+          {about.goals.map((goals) => (
+            <span className="badge">{goals}</span>
+          ))}
+        </div>
+      </div>
   
     </div>
 )};

@@ -9,6 +9,7 @@
   "navigation": [
     { "name": "Home", "path": "/" },
     { "name": "About Me", "path": "/about" },
+    { "name": "Employment", "path": "/employment" },
     { "name": "Projects", "path": "/projects" },
     { "name": "Contact", "path": "/contact" }
   ]

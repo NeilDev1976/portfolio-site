@@ -3,6 +3,7 @@ import { Home } from "./pages/Home.tsx";
 import { About } from "./pages/About.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
 import { Layout } from "./components/Layout.tsx";
+import { ComingSoon } from "./pages/ComingSoon.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,18 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "employment",
+        element: <ComingSoon />
+      },
+      {
+        path: "projects",
+        element: <ComingSoon />
+      },
+      {
+        path: "contact",
+        element: <ComingSoon />
       },
       {
         path: "*",
