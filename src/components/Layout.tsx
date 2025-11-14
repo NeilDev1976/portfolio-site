@@ -4,7 +4,7 @@ import { Footer } from "./Footer.tsx";
 
 const Layout = () => {
     return (
-        <main className="bg-zinc-50 flex flex-col min-h-screen">
+        <main className="flex flex-col min-h-screen">
             <Header />
             <div className="pt-24 flex-1">
                 <Outlet />

@@ -3,7 +3,8 @@
   "intro": {
     "name": "Neil Surridge",
     "tagline": "Software Engineer rediscovering the craft",
-    "summary": "I'm a former C++ software engineer now returning to the world of software development, rebuilding my skills around TypeScript, React, Tailwind CSS, C#, .NET and Azure."
+    "summary1": "Hello! I'm a developer returning to the tech world after leading teams, coordinating operations, and building the kind of decision-making skills you only acquire through real-world problem-solving. My focus now is on modern web development using TypeScript, React, Tailwind CSS, C#, .NET, and Azure.",
+    "summary2": "I previously worked as a Software Engineer specialising in Visual C++, telecommunications and medical systems, and I'm now blending that technical foundation with the leadership and analytical skills gained from my career journey since."
   },
   "background": {
     "education": {
@@ -27,7 +28,7 @@
     }
   },
   "currentFocus": {
-    "statement": "I'm now purposefully moving back into software development and modern engineering practices. This portfolio documents that journey and serves as both a learning space and a showcase of progress.",
+    "statement": "I'm now purposefully moving back into software development and modern engineering practices. This portfolio documents that journey and serves as both a learning space and a showcase of progress. I have a fulltime role outside of software development, so learning and projects are pursued during evenings and weekends.",
     "technologies": [
       "TypeScript",
       "React",
@@ -54,7 +55,8 @@
       "Clear and structured communication",
       "Learning and adapting quickly",
       "Analytical and logical reasoning",
-      "High-stakes decision-making"
+      "High-stakes decision-making",
+      "Critical Risk Assessment and Mitigation"
     ]
   },
   "goals": [
