@@ -4,6 +4,7 @@ import { About } from "./pages/About.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
 import { Layout } from "./components/Layout.tsx";
 import { ComingSoon } from "./pages/ComingSoon.tsx";
+import { Projects } from "./pages/Projects.tsx";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: "projects",
-        element: <ComingSoon />
+        element: <Projects />
       },
       {
         path: "contact",
