@@ -6,6 +6,10 @@
     "github": "https://github.com/NeilDev1976",
     "email": ""
   },
+  "apis": {
+    "githubUsername": "NeilDev1976",
+    "githubBaseUrl": "https://api.github.com/users/"
+  },
   "navigation": [
     { "name": "Home", "path": "/" },
     { "name": "About Me", "path": "/about" },
