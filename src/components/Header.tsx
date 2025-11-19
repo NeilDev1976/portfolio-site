@@ -7,7 +7,7 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 const Header = () => {
-    const [showMenu, setShowMenu] = useState(true); //only care about this for mobile
+    const [showMenu, setShowMenu] = useState(false); //only care about this for mobile
 
     // Render menu items, can be used in both mobile and desktop navs, load from siteConfig
     const renderMenu = () => (
